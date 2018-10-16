@@ -1,0 +1,61 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24rpx;
+  margin-bottom: 24rpx;
+}
+
+.arc1{
+  height: 440rpx;
+  width: 680rpx;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+image{
+  height: 440rpx;
+  width: 680rpx;
+}
+
+.title{
+  background-color: black;
+  opacity: 0.4;
+  padding-left: 11rpx;
+  position: absolute;
+  bottom: 0;
+}
+
+text{
+  font-size: 34rpx;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 4rpx;
+  word-break: break-all;
+  line-height: 2rpx;
+}
+
+/* 订阅 */
+.subscribe{
+  display: flex;
+  flex-direction: row;
+  background-color: lightcoral;
+  color: black;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 36px;
+  padding-left: 6px;
+}
+.butn{
+  width: 60px;
+  height: 24px;
+  font-size: 16px;
+  background-color: #d43112;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

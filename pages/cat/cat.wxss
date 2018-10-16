@@ -1,0 +1,90 @@
+.head{
+  margin-top: 14px;
+  margin-left: 10rpx;
+  margin-bottom: 6rpx;
+}
+
+/* 标题 */
+.title{
+  font-size: 54rpx;
+}
+/* 日期+阅读量 */
+.date{
+  font-size:26rpx;
+  color: lightgray;
+  margin-top: 10rpx;
+}
+
+/* 广告 */
+.adimage{
+  height: 140px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+/* 正文 */
+.art{
+  margin:14px 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+.art text{
+  font-size: 40rpx;
+  line-height: 1.5em;
+}
+.art image{
+  height: 160px;
+  width: 100%;
+}
+
+/* 相关推荐 */
+.relatedRecommand{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.relatedTitle{
+  width: 36%;
+  padding-bottom: 5px;
+  border-bottom: 4px solid red;
+  text-align: center;
+}
+.moreLink{
+  display: flex;
+  flex-direction: row;
+  margin: 10px 10px 10px 10px;
+}
+.moreLinkImage{
+  height: 80px;
+  width: 120px;
+}
+.uTitle{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  justify-content: space-between;
+  width: 75%;
+}
+.mainTitle{
+  font-size: 36rpx;
+}
+.subTitle{
+  font-size: 26rpx;
+  color: lightgray;
+}
+
+/* 分享给好友或微信群 */
+.butn{
+  display: flex;
+  justify-content: center;
+}
+.share{
+  border-radius: 8px;
+  background-color: #d43112;
+  width: 200px;
+  position: fixed;
+  bottom: 5px;
+}

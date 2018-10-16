@@ -1,0 +1,19 @@
+<view class="container" wx:for="{{proList}}">
+ <navigator class='nvg' hover-class='redistric' url='{{item.nvg}}' style='display:inline;'>
+  <view class='arc1'>
+       <image class='pic' src='{{item.pic}}'></image>
+       <view class='title'>
+         <text class='titl'>{{item.titl}}</text>
+       </view>
+    </view>
+ </navigator>
+</view>
+
+<view class='subscribe'>
+  <text>点击订阅，好图每天免费推送给您！</text>
+  <button class='butn'>订阅</button>
+</view>
+
+
+
+

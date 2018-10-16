@@ -1,0 +1,63 @@
+<!-- 头部 -->
+<view class='head'>
+  <text class='title'>健康三子诀：肝怕胖、肾怕肉、胃怕寒、心怕咸、肠怕忍</text>
+  <!-- 日期和阅读量 -->
+  <view class='date'>
+    <text>2018-06-22 13:10:55 </text>
+    <text>{{count}}阅读</text>
+  </view>
+</view>
+
+<!-- 顶部广告 -->
+<view class='ad'>
+  <image class='adimage' src='/images/adv.jpg'></image>
+</view>
+
+<!-- 正文 -->
+<view class='art'>
+  <text>我们的身体是个有机的整体，每个“零件”正常工作才能保证人体的健康，任何一个“零件”正常工作才能保证人体的健康，任何一个“零件”出了问题都可能危及生命。</text>
+  <image src='/images/people.jpg'></image>
+  <text>血管、心脏、胃、肺、肾、肝、肠、鼻子、眼睛，伤害了它们，健康难保！
+  你知道吗？它们的“致命杀手”都只有一个字，而且就在你身边！
+  健康圈综合多位专家的观点，来告诉大家如何保护号我们的身体的“零件！”
+  一，心脏怕咸
+  盐分过多，加重心脏负担
+  目前食盐的主要成分是氯化钠，如果钠摄取过多，会造成体内的水滞留，血管内压力升高，阻力增大马甲中心脏的负担。
+  所以心脏不好的人，吃得太咸会觉得不舒服。尤其是心衰的患者，需要控制盐的摄入，还有水分的摄入。除了食盐，味精、酱油钟也含有盐，使用过量，都会导致摄盐量超标。
+  建议
+  1.一天吃盐6克以内，相当于1啤酒瓶盖的量。
+  2.最好选择低钠盐，低钠盐中去掉了20%的氯化钠，用氯化钾替代，不但减少了钠离子，降低了高血压的风险，而且钾离子对降血压又有帮助。
+  3.如果吃菜过咸，别忘了多喝白开水。
+  二，胃怕寒
+  胃部受冷，引起收缩痉挛、绞痛</text>
+  <image src='/images/stomach.jpg'></image>
+  <text>对于胃来说，“冷”是最难接受的，一旦胃收到冷空气或者冷的视频刺激，就容易收缩痉挛，胃部交通、腹泻。有胃肠疾病的人都知道，当胃肠不适时，抱个热水袋捂一会儿就会舒服些。
+  以下省略N多字...
+  ...
+  ...
+  ...
+  ...
+  建议中老年朋友记住它，顺利躲过各器官可能的伤害，才能保健康、延年益寿，值得推荐给好友们都看看！</text>
+</view>
+
+<!-- 底部广告 -->
+<view class='ad'>
+  <image class='adimage' src='/images/gamead.jpg'></image>
+</view>
+
+<!-- 相关推荐 -->
+<view class='relatedRecommand'>
+  <text class='relatedTitle'>相关推荐</text>
+  <view class='moreLink' wx:for="{{related}}">
+    <image class='moreLinkImage' src='{{item.pic}}' style='float:left;'></image>
+    <view class='uTitle'>
+      <text class='mainTitle'>{{item.title}}</text>
+      <text class='subTitle'>{{count}}阅读</text>
+    </view>
+  </view>
+</view>
+
+<!-- 分享给好友或微信群 -->
+<view class='butn'>
+  <button class='share'>分享给好友或微信群</button>
+</view>
